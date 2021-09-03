@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "quarts";
+  src: url("quarts.otf");
+}
+
+#title {
+  font-family: 'quarts';
+  font-size: 50px;
+  color: white;
+}
+
+#counter {
+  font-family: 'quarts';
+  font-size: 50px;
+  color: white;
+  margin-left: 20px;
+}
+
+.title_container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:120px;
+  width:360px;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Glacial Indifference";
+  font-weight: 600;
+  color: white;
+}
